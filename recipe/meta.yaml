@@ -1,5 +1,5 @@
 {% set name = "cloupy" %}
-{% set version = "1.1.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cloupy-{{ version }}.tar.gz
-  sha256: e6281daddaeb05a62b001b12d823101a9b985508858d357705a7537cf7942021
+  sha256: c68f5fd22a467541f84ddafb8e26005e00a2491947897cc9ccda7ffdc6d6750f
 
 build:
   noarch: python
